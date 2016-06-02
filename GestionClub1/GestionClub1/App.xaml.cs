@@ -54,7 +54,7 @@ namespace GestionClub1
                 // Attention :- À utiliser uniquement en mode de débogage. Les applications qui désactivent la détection d'inactivité de l'utilisateur continueront de s'exécuter
                 // et seront alimentées par la batterie lorsque l'utilisateur ne se sert pas du téléphone.
                 PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
-                Buddy.Init("bbbbbc.FjJbrtFHmqhkc", "c5ef4235-0add-cef7-bdc6-b3ec91cec681");
+                Buddy.Init("ID", "Key");
             }
 
         }
