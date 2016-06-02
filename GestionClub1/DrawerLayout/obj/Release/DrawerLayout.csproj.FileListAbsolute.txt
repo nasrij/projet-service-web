@@ -1,0 +1,4 @@
+C:\Users\Nasri\Documents\Visual Studio 2015\Projects\GestionClub1\DrawerLayout\Bin\Release\DrawerLayout.dll
+C:\Users\Nasri\Documents\Visual Studio 2015\Projects\GestionClub1\DrawerLayout\Bin\Release\DrawerLayout.pdb
+C:\Users\Nasri\Documents\Visual Studio 2015\Projects\GestionClub1\DrawerLayout\obj\Release\DrawerLayout.dll
+C:\Users\Nasri\Documents\Visual Studio 2015\Projects\GestionClub1\DrawerLayout\obj\Release\DrawerLayout.pdb

@@ -1,0 +1,4 @@
+C:\projet\4_\Just Share It\DrawerLayout\Bin\ARM\Debug\DrawerLayout.dll
+C:\projet\4_\Just Share It\DrawerLayout\Bin\ARM\Debug\DrawerLayout.pdb
+C:\projet\4_\Just Share It\DrawerLayout\obj\ARM\Debug\DrawerLayout.dll
+C:\projet\4_\Just Share It\DrawerLayout\obj\ARM\Debug\DrawerLayout.pdb

@@ -1,0 +1,4 @@
+C:\Users\Nasri\Desktop\C#54v2\DrawerLayout\Bin\Debug\DrawerLayout.dll
+C:\Users\Nasri\Desktop\C#54v2\DrawerLayout\Bin\Debug\DrawerLayout.pdb
+C:\Users\Nasri\Desktop\C#54v2\DrawerLayout\obj\Debug\DrawerLayout.dll
+C:\Users\Nasri\Desktop\C#54v2\DrawerLayout\obj\Debug\DrawerLayout.pdb

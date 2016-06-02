@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="myPU" >
+		<description>
+            Persistence unit for the JPA tutorial of the Hibernate Getting Started Guide
+        </description>
+		
+		 
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <class>com.nasri.restjersey.model.User</class>
+        <class>com.nasri.restjersey.model.Badge</class>
+        <class>com.nasri.restjersey.model.Evenement</class>
+        <class>com.nasri.restjersey.model.Club</class>
+        <class>com.nasri.restjersey.model.Point</class>
+        <class>com.nasri.restjersey.model.Clubbadge</class>
+
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/gamification" />
+            <property name="javax.persistence.jdbc.user" value="root" />
+            <property name="javax.persistence.jdbc.password" value="" />
+			<property name="hibernate.archive.autodetection" value="class"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
+            <property name="hibernate.show_sql" value="true" />
+        </properties>
+		
+	</persistence-unit>
+</persistence>

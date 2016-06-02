@@ -1,0 +1,24 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="GestionClub1.views.splash"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot est la grille racine où tout le contenu de la page est placé-->
+    <Grid x:Name="LayoutRoot" Background="#0277bd">
+        <StackPanel Orientation="Vertical"  VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,-100,0,0">
+                    <Image Source="/Assets/logo1.png" Width="250"/>
+            <ProgressBar Name="progress" Visibility="Visible" Width="400" IsEnabled="True" IsIndeterminate="True" Background="Transparent" Foreground="White" />
+        </StackPanel>
+    </Grid>
+
+</phone:PhoneApplicationPage>
